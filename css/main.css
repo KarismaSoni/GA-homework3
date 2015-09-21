@@ -1,0 +1,249 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box; margin: 0 auto; padding: o auto; 
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+body{
+ font-family:'Source Code Pro', 'Merriweather','Oswald', sans-serif;
+}
+
+
+/*main styles*/
+
+.container {
+ max-width: 1280px; 
+ margin: 10px auto 60px; 
+ }
+
+.container .header {
+  background-color:#060606; 
+  text-align: center; 
+  border-bottom: 4px solid #FBDC3C; 
+}
+
+.container .header h1 {
+  float: left;
+}
+
+.container .header h1 a { 
+  font-size: 30px; 
+  color: white; 
+  padding: 0 0 0 25px;
+  text-decoration: none; 
+  float: left;
+  display: inline-block;
+  font-family: merriweather;
+}
+
+.container .header .nav a:hover {
+  color: #EC4945;
+}
+
+.container .header .nav { 
+  float: right;
+}
+
+.container .header .nav ul li a { 
+  float: right; 
+  color: white; 
+  text-decoration: none; 
+  padding:0px 10px; 
+  font-size: 20px;
+  font-family: sans-serif;
+} 
+.container .header .nav ul li {
+  display: inline-block;
+  margin-top: 13px;
+}
+
+/*1st container*/
+
+.container1 .tagline { 
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  font-family: merriweather;
+  font-weight: bold;
+  background-color: #DCE4E0;
+  padding: 20px;
+  margin: 1px;
+}
+.container1 .banner {
+  border: 2px solid black;
+  background-image: url(../images/coworking.jpg);
+  overflow: hidden;
+  box-shadow: inset 0 0 5px;
+  padding: 150px 50px 150px 0;
+}
+
+
+.container1 .blurb {
+ float: right; 
+ width: 43%;
+ border: 1px solid black;
+ background-position: right;
+ padding: 30px 50px;
+ background-color: rgba(255,255,255,0.6); /*rgba use for transparent(shadow)*/
+ box-shadow: inset 0 0 5px;
+ font-size: 25px;
+}
+
+.container1 .blurb a:hover {
+ color: black ;
+}
+
+.container1 .blurb p {
+  font-size: 20px;
+  font-family: merriweather;
+}
+
+.container1 .blurb a {
+  font-size: 20px;
+}
+
+.container1 .blurb .button {
+  background-color: #EC4945;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 12px 90px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+
+/*2nd container*/
+
+.container2 .info {
+  float: left;
+  width: 400px;
+  margin: 25px 25px 25px 0;
+  border-right: 1px solid gray;
+  padding-right: 25px;
+}
+
+.container2 .info h3 {
+  font-size: 25px;
+  font-family: merriweather;
+}
+
+.container2 .info p {
+   font-size: 22px;
+   font-family: sans-pro;
+}
+
+.container2 .info .button {
+  text-decoration: none;
+  background-color:#DCE4E0;
+  text-align: center;
+  color: black;
+  padding: 12px 65px;
+  font-size: 20px;
+  font-family: oswald;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+  width: 356px;
+  box-shadow: darkgrey 0 0 5px;
+}
+
+.container2 .info:last-child {  
+ border-right: none;               /*psuedo class use for last child's border is none.*/
+}
+
+/*footer*/
+
+ .footer p {
+  margin-top: 20px;
+  background-color: #434142;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+/* 
+    SITE COLORS:
+
+    White - #ffffff
+    Light Grey -
+    Dark Grey -
+    Grey/Black(text color) -
+    Yellow -
+    Red -
+*/
+
+
+/* Global
+   ================================================================ */
+
+
+/* Layout
+   ================================================================ */
+
+
+/* Headings
+   ================================================================ */
+
+
+
+/* Text Styles
+   ================================================================ */
+
+
+
+/* Header
+   ================================================================ */
+
+
+
+/* Footer
+   ================================================================ */
+
+
+
+/* Navigation
+   ================================================================ */
+
+
+
+/* Buttons
+   ================================================================ */
