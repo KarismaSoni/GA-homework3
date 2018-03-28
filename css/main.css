@@ -173,7 +173,21 @@ body{
   font-size: 20px;
 }
 
+@media screen and (min-width: 30em) {
+    .container1 .banner { background-size: contain; background-repeat: no-repeat; width: 100%;    }
+    .container1 .blurb { width: 100%; position: relative; left: 10px; bottom:130px; height: 370px; font-size: 22px;}
+    .container2 .info { position: relative; left: 50px; border-right: none; }
+}
 
+@media screen and (min-width: 48em) {
+    .container1 .blurb { width: 100%; background-size: contain; background-repeat: no-repeat; width: 100%; }
+}
+@media screen and (min-width: 67em) {
+    .container1 .blurb { width: 43%; float: right; }
+}
+@media screen and (min-width: 79em) {
+    .container1 .blurb { width: 43%; float: right;  }
+}
 
 
 
